@@ -119,6 +119,11 @@ html {
 }
 
 /* Subscribe */
+#subscribe {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
 #subscribe button {
   padding: 10px 30px;
   font-style: normal;
