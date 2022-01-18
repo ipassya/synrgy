@@ -68,7 +68,7 @@ while (play) {
   // Rules
   var result = "";
   if (player == comp) {
-    result = "SERI!";
+    result = "seri";
   } else if (
     (player == "gajah" && comp == "orang") ||
     (player == "orang" && comp == "semut") ||
@@ -82,16 +82,16 @@ while (play) {
   ) {
     result = "kalah";
   } else {
-    result = "Memasukkan pilihan yang salah!";
+    result = "memasukkan pilihan yang salah";
   }
 
   // Result
   alert(
-    "Kamu memilih : " +
+    "Kamu memilih: " +
       player +
-      " dan Komputer memilih : " +
+      " dan komputer memilih: " +
       comp +
-      "\nMaka hasilnya : Kamu " +
+      "\nMaka hasilnya: kamu " +
       result
   );
 
